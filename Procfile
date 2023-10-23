@@ -1,2 +1,2 @@
-worker1: py htmlTemplates.py
+worker1: python htmlTemplates.py
 worker2: python app.py
