@@ -1,7 +1,2 @@
-web: bundle exec rackup htmlTemplates.py -p $PORT
-worker: bundle exec rake worker:start
-
-cf push app.py
-
-
-
+worker1 python htmlTemplates.py 
+worker2: python push app.py
